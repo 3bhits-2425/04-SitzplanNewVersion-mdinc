@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e21ed8a3dfe4d64f8c9255265c93298
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tableLayout: {fileID: 11400000, guid: 7d2439b9a25703c4cbb663cc56fa31a3, type: 2}
+  - students: {fileID: 11400000, guid: 765e8b3e21c17c148bfb568bff4d083e, type: 2}
+  - tablePrefab: {fileID: 7853726011358697963, guid: eae8494abb9c0f34e86fc502cbaf6b11, type: 3}
+  - chairPrefab: {fileID: 6285103499670681116, guid: 73895975463ad6d41b18c9cb27eece30, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
