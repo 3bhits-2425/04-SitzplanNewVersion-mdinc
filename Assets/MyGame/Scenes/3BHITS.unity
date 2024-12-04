@@ -261,7 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tableLayout: {fileID: 11400000, guid: 7d2439b9a25703c4cbb663cc56fa31a3, type: 2}
   students: []
-  tablePrefab: {fileID: 4741455320162882485, guid: 13fae819dd5455348a7f659a387204c4, type: 3}
+  tablePrefab: {fileID: 7853726011358697963, guid: eae8494abb9c0f34e86fc502cbaf6b11, type: 3}
   chairPrefab: {fileID: 6285103499670681116, guid: 73895975463ad6d41b18c9cb27eece30, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

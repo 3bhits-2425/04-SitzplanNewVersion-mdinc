@@ -17,6 +17,7 @@ public class Manager1 : MonoBehaviour
                 Vector3 tablePosition = new Vector3(col * tableLayout.tableSpacing, 0, row * tableLayout.tableSpacing); 
                 //Tische platzieren
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform); 
+                //transform sorgt dafür dass Manager der Parent von den Instanzierte  () ist
 
                 //sessel platzieren
             }
