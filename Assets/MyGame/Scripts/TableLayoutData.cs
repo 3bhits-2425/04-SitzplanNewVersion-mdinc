@@ -2,7 +2,7 @@ using UnityEngine;
 //filename besagt defaultes speichern
 //menuname besagt wie es im menu angezeigt wird
 [CreateAssetMenu(fileName = "NewTableLayout", menuName = "Seatplan/table")]
-public class TableLayout : ScriptableObject
+public class TableLayout: ScriptableObject
 {
     public int row;
     public int column;
