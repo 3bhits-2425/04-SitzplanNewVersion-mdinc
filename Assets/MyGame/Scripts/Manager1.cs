@@ -46,7 +46,7 @@ public class Manager1 : MonoBehaviour
 
                 if (chairPos2 != null)
                 {
-                    Instantiate(chairPrefab, chairPos2.position, chairPos2.rotation, table.transform)
+                    Instantiate(chairPrefab, chairPos2.position, chairPos2.rotation, table.transform);
                 }
                 else
                 {

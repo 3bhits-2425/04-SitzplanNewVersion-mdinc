@@ -20,3 +20,6 @@ Here you can see the projects sketchnote:
 ---
 ## running project 
 https://github.com/user-attachments/assets/f3d0014b-04aa-4a1c-8e88-cd7e5d415365
+
+---
+## lessons learned:** -I learned how important notation in code really is, it makes large code blocks so much easier to read. -I also learned working with prefabs and their advantages in use.

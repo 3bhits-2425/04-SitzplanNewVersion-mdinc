@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
-{
-    // Start is called before the first frame update
+{    // Start is called before the first frame update
     [SerializeField] private GameObject prefab;
     [SerializeField] private GameObject myParent;
 
