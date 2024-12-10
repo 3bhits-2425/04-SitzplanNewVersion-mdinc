@@ -7,6 +7,8 @@ public class Manager : MonoBehaviour
     [SerializeField] private StudentData[] students;
     [SerializeField] private GameObject tablePrefab;
     [SerializeField] private GameObject chairPrefab;
+
+    [SerializeField] private GameObject studentPrefab;
     private void Start()
     {   // Tische und Stühle in einem Grid platzieren
         for (int row = 0; row < tableLayout.row; row++)
@@ -19,6 +21,8 @@ public class Manager : MonoBehaviour
                 // Stuhlpositionen innerhalb des Tisches finden
                 Transform pos1 = table.transform.Find("ChairPos1");
                 Transform pos2 = table.transform.Find("ChairPos2");
+                Transform posStudent1 = table.transform.Find("StudentPos1");
+                Transform posStudent2 = table.transform.Find("StudentPos2");
  
                 if (pos1 != null)
                 { 
@@ -27,6 +31,14 @@ public class Manager : MonoBehaviour
                 if (pos2 != null)
                 {
                     Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
+                }
+                if (posStudent1 != null)
+                {
+                    Instantiate(studentPrefab, posStudent1.position, posStudent1.rotation, table.transform);
+                }
+                if (posStudent2 != null)
+                {
+                    Instantiate(studentPrefab, posStudent2.position, posStudent2.rotation, table.transform);
                 }
 
             }
