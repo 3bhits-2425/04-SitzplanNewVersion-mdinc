@@ -20,7 +20,7 @@ Here you can see the projects sketchnote:
 ---
 ## running project 
 
-https://github.com/user-attachments/assets/b0d70a0e-04ad-4ed6-9192-f008412adb52
+https://github.com/user-attachments/assets/4bc72340-0030-4a8e-82d1-2d0bcea71271
 
 
 ---
