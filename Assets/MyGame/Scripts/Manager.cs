@@ -7,10 +7,14 @@ public class Manager : MonoBehaviour
     [SerializeField] private StudentData[] students;
     [SerializeField] private GameObject tablePrefab;
     [SerializeField] private GameObject chairPrefab;
-
     [SerializeField] private GameObject studentPrefab;
+    [SerializeField] private List<GameObject> chairlist;
+
+
     private void Start()
-    {   // Tische und Stühle in einem Grid platzieren
+    {   
+         chairlist = new List<GameObject>(); // list initialisierung
+        // Tische und Stühle in einem Grid platzieren
         for (int row = 0; row < tableLayout.row; row++)
         {
             for(int col = 0; col < tableLayout.column; col++)
@@ -26,11 +30,12 @@ public class Manager : MonoBehaviour
  
                 if (pos1 != null)
                 { 
-                    Instantiate(chairPrefab, pos1.position, pos1.rotation,table.transform);
+                    GameObject chair = Instantiate(chairPrefab, pos1.position, pos1.rotation,table.transform);
+                    chairlist.Add(chair);
                 }
                 if (pos2 != null)
                 {
-                    Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform);
+                    chairlist.Add(Instantiate(chairPrefab, pos2.position, pos2.rotation, table.transform));
                 }
                 if (posStudent1 != null)
                 {
@@ -45,7 +50,7 @@ public class Manager : MonoBehaviour
 
         }
 
-    }
+    }  
  
 }
 //wie gebe ich an das alle clone auf dem manager sind
